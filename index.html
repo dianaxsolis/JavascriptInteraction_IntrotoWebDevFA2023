@@ -1,1 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel = "stylesheet" href="style.css">
+	<title>film genre generator</title>
 
+</head>
+<body>
+
+	<div id = "titleBox">
+		<h1 id = "title"> feeling like watching a film today?</h1>
+		<h1 id = "title2"> can't decide which one?</h1>
+	</div>
+
+	<div id = "user">
+		<p id = "input"> write your name!</p>
+		<input id = "userInput" type = "text"></p>
+	</div>
+
+	<div id = "output">
+		<button id = "executeButton" onclick="generate(document.getElementById('userInput').value)">pick your movie!</button>
+		<p id = "outputResult"> result is shown here. </p>
+	</div>
+
+	<script src = "script.js"></script>
+
+</body>
+</html>

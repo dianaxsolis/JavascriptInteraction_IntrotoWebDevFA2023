@@ -1,1 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap');
 
+#titleBox {
+	display: block;
+	text-align: center;
+	font-family: 'Inter', sans-serif;
+	color: hotpink;
+	font-size: 20px;
+}
+
+#user {
+	display: block;
+	text-align: center;
+	font-family: 'Inter', sans-serif;
+	font-size: 30px;
+}
+
+#input {
+	margin: 0px;
+}
+
+#userInput {
+	font-size: 30px;
+	margin: 20px;
+	font-family: 'Inter', sans-serif;
+}
+
+#output {
+	display: block;
+	text-align: center;
+}
+
+#executeButton {
+	font-size: 30px;
+	font-family: 'Inter', sans-serif;
+	margin: 0px;
+	padding: 10px;
+	background-color: hotpink;
+	color: white;
+}
+
+#outputResult {
+	font-size: 30px;
+	font-family: 'Inter', sans-serif;
+	color: hotpink;
+}
